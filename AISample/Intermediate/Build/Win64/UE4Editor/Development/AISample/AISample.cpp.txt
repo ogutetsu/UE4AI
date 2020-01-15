@@ -1,2 +1,0 @@
-D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\Definitions.AISample.h
-d:\github\ue4ai\ue4ai\aisample\source\aisample\AISample.h
