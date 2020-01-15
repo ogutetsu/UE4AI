@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AISample.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7DD6058E-110F-4E10-82CD-2169816B833F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AISample.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AISampleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{921BD909-806E-4ED6-BA05-946B83265D8F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AISample">
+      <UniqueIdentifier>{F5015B43-779B-4B8A-8002-7DA9B9B27377}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AISample\AISample.Build.cs">
+      <Filter>Source\AISample</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AISample\AISample.cpp">
+      <Filter>Source\AISample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AISample\AISample.h">
+      <Filter>Source\AISample</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AISample\AISampleGameModeBase.cpp">
+      <Filter>Source\AISample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AISample\AISampleGameModeBase.h">
+      <Filter>Source\AISample</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

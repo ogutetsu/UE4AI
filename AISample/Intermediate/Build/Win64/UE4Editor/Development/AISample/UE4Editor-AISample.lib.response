@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AISample.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\AISampleEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\AISample.cpp.obj"
+"D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\AISampleGameModeBase.cpp.obj"
+"D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\AISample.init.gen.cpp.obj"
+"D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\AISampleGameModeBase.gen.cpp.obj"
+"D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\Default.rc2.res"
+/OUT:"D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\UE4Editor-AISample.lib"
+/INCLUDE:IMPLEMENT_MODULE_AISample

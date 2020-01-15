@@ -1,0 +1,7 @@
+D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Development\AISample\Definitions.AISample.h
+d:\github\ue4ai\ue4ai\aisample\source\aisample\AISampleGameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\GitHub\UE4AI\UE4AI\AISample\Intermediate\Build\Win64\UE4Editor\Inc\AISample\AISampleGameModeBase.generated.h

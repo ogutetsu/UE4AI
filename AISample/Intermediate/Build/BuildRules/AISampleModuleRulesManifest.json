@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitHub\\UE4AI\\UE4AI\\AISample\\Source\\AISample\\AISample.Build.cs",
+		"D:\\GitHub\\UE4AI\\UE4AI\\AISample\\Source\\AISample.Target.cs",
+		"D:\\GitHub\\UE4AI\\UE4AI\\AISample\\Source\\AISampleEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.1"
+}
