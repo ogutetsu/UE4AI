@@ -9,6 +9,8 @@ UBTDecorator_CheckBoolVariable::UBTDecorator_CheckBoolVariable(const FObjectInit
 	: Super(ObjectInitializer)
 {
 	NodeName = "Check Bool Variable";
+
+	BoolVariableToCheck.AddBoolFilter(this, GET_MEMBER_NAME_CHECKED(UBTDecorator_CheckBoolVariable, BoolVariableToCheck));
 }
 
 

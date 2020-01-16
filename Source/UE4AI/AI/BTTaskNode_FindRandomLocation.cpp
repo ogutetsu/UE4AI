@@ -11,6 +11,8 @@ UBTTaskNode_FindRandomLocation::UBTTaskNode_FindRandomLocation(const FObjectInit
 	: Super(ObjectInitializer)
 {
 	NodeName = "Find Random Location";
+
+	DestinationVector.AddVectorFilter(this, GET_MEMBER_NAME_CHECKED(UBTTaskNode_FindRandomLocation, DestinationVector));
 }
 
 
