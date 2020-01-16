@@ -5,6 +5,14 @@
 #include "BehaviorTree/BlackboardComponent.h"
 
 
+UBTDecorator_CheckBoolVariable::UBTDecorator_CheckBoolVariable(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
+{
+	NodeName = "Check Bool Variable";
+}
+
+
+
 bool UBTDecorator_CheckBoolVariable::CalculateRawConditionValue(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) const
 {
 	const UBlackboardComponent* BlackboardComp = OwnerComp.GetBlackboardComponent();

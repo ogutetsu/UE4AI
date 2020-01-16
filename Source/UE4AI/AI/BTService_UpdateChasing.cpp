@@ -10,6 +10,8 @@
 UBTService_UpdateChasing::UBTService_UpdateChasing(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {
+	NodeName = "Update Chasing Behavior";
+
 	bNotifyBecomeRelevant = true;
 	bNotifyCeaseRelevant = false;
 }

@@ -14,6 +14,10 @@ class UE4AI_API UBTDecorator_CheckBoolVariable : public UBTDecorator
 {
 	GENERATED_BODY()
 
+public:
+	UBTDecorator_CheckBoolVariable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+
+
 protected:
 	UPROPERTY(EditAnywhere, Category = Blackboard)
 	FBlackboardKeySelector BoolVariableToCheck;

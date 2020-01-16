@@ -15,6 +15,8 @@ class UE4AI_API UBTTaskNode_FindRandomLocation : public UBTTaskNode
 	GENERATED_BODY()
 	
 public:
+	UBTTaskNode_FindRandomLocation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+
 	UPROPERTY(EditAnywhere, Category = Blackboard)
 	FBlackboardKeySelector DestinationVector;
 
