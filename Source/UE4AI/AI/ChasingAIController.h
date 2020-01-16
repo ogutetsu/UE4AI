@@ -26,9 +26,16 @@ public:
 	FVector LastKnownPlayerPosition;
 	bool bCanSeePlayer;
 
+	UPROPERTY(EditAnywhere)
+	UBehaviorTree* BehaviorTree;
+
+	virtual void OnPossess(class APawn* InPawn) override;
+
 
 protected:
 	UFUNCTION()
 	void OnTargetPerceptionUpdate(AActor* Actor, FAIStimulus Stimulus);
+
+	
 
 };

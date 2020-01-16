@@ -2,7 +2,7 @@
 
 
 #include "ChasingAIController.h"
-
+#include "BehaviorTree/BehaviorTree.h"
 
 AChasingAIController::AChasingAIController()
 {
@@ -18,6 +18,15 @@ AChasingAIController::AChasingAIController()
 
 	PerceptionComponent->OnTargetPerceptionUpdated.AddDynamic(this, &AChasingAIController::OnTargetPerceptionUpdate);
 
+}
+
+void AChasingAIController::OnPossess(APawn * InPawn)
+{
+	Super::OnPossess(InPawn);
+	if (BehaviorTree != nullptr)
+	{
+		RunBehaviorTree(BehaviorTree);
+	}
 }
 
 void AChasingAIController::OnTargetPerceptionUpdate(AActor * Actor, FAIStimulus Stimulus)
