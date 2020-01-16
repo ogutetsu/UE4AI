@@ -14,6 +14,11 @@ UBTService_UpdateChasing::UBTService_UpdateChasing(const FObjectInitializer& Obj
 
 	bNotifyBecomeRelevant = true;
 	bNotifyCeaseRelevant = false;
+
+	PlayerKey.AddObjectFilter(this, GET_MEMBER_NAME_CHECKED(UBTService_UpdateChasing, PlayerKey), AActor::StaticClass());
+	LastKnownPositionKey.AddVectorFilter(this, GET_MEMBER_NAME_CHECKED(UBTService_UpdateChasing, LastKnownPositionKey));
+	CanSeePlayerKey.AddBoolFilter(this, GET_MEMBER_NAME_CHECKED(UBTService_UpdateChasing, CanSeePlayerKey));
+
 }
 
 void UBTService_UpdateChasing::OnBecomeRelevant(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
